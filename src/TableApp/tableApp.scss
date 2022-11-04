@@ -1,0 +1,136 @@
+.TableAppWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #F6F8FA;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+}
+.table-app {
+  position: relative;
+  width: 1148px;
+  height: 662px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px 4px rgba(34, 41, 47, 0.1);
+  border-radius: 8px;
+  &__status {
+    text-align: center;
+    display: inline-block;
+    width: 64px;
+    height: 22px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 12px;
+    &_active {
+      background-color: #EAF9F1;
+      border: 1px solid #28C76F;
+      color: #28C76F;
+    }
+    &_archived {
+      background-color:  #FDEEEE;
+      border: 1px solid #EA5455;
+      color: #EA5455;
+    }
+  }
+  &__column-title {
+    font-size: 12px;
+    width: 38px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #455A64;
+  }
+  &__menu-cell {
+    display:flex;
+    flex-direction:row;
+    height:32px;
+    align-items: center;
+    float: right;
+  }
+  &__menu-icon{
+    height: 18px;
+    font-size: 18px;
+    svg {
+      width: 36px;
+    }
+  }
+  &__expand-cell{
+    display: block;
+    width:32px;height:32px;background-color:#EFF2F3;margin-right:16px;
+    padding: 8px;
+    border-radius: 5px;
+    color:  #607D8B;
+    margin-right: 0px;
+  }
+  &__title-filter{
+    width: 23px;
+    margin-bottom: 2px;
+  }
+}
+.ant-space-align-center {
+  margin: 0 auto;
+}
+.ant-table-cell {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6E6B7B;
+}
+.ant-table-thead > tr > th {
+  background-color: #F3F2F7;;
+}
+.ant-form-item-control-input-content .ant-btn {
+  padding: 0px !important;
+}
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+  width: 0px;
+}
+.dragLine {
+  display: none !important;
+}
+tr.ant-table-expanded-row > td {
+  background: #FFFFFF !important;
+  padding: 0px !important;
+}
+.ant-table-row-level-0:nth-child(2n) {
+  background: #FCFCFD !important
+}
+.ant-dropdown {
+  width: 176px;
+  height: 72px;
+  padding: 0px;
+  float: right;
+}
+.ant-dropdown-menu {
+  padding: 0px;
+}
+.ant-table-row-level-0 > .ant-table-cell:last-child {
+  padding: 0px !important;
+}
+.ant-table-cell.svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+  color: #455A64;
+  margin-bottom: 0.5px;
+  margin-right: 1px;
+}
+.ant-table-column-sorters {
+  display: flex;
+  flex: auto;
+  align-items: center;
+}
+.ant-table-column-title {
+  position: relative;
+  z-index: 1;
+  flex: none;
+}
+.ant-table-column-sorters {
+  justify-content: start;
+  margin-top: 3px;
+}
+.ant-dropdown-menu-title-content {
+  flex: auto;
+}
+tr {
+  td:first-child {
+    text-transform: capitalize;
+  }
+}

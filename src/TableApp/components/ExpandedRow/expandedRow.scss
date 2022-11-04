@@ -1,0 +1,149 @@
+.expand{
+    width: 100%;
+    height: 173px;
+    font-family: 'Rubik', sans-serif;
+    background: #FFFFFF !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &-left-side{
+        width: 789px;
+    }
+    &__client-discription{
+        margin: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 316px;
+        height: 42px;
+    }
+    &__client-discription{
+        span{ 
+            display: block;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+        }
+        span:nth-child(2n){
+            color: #1D2C48
+        }
+        span:nth-child(2n + 1){
+            color: #B9B9C3
+        } 
+    }
+    &__notes-block{
+        margin-left: 16px;
+        width: 750px;
+        height: 69px;
+        span{
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        }
+        span:nth-child(2n + 1){
+            color: #B9B9C3
+        }
+        span:nth-child(2n){
+            color: #1D2C48;
+        }
+    }
+    &-right-side{
+       margin-right: 36px;
+        height: 173px;
+        display: flex;
+        flex-direction: row;
+        &__totalEarnings{
+            height: 77px;
+            width: 236px;
+            margin-top: 16px;
+            span:first-child{
+                display: block;
+                margin-bottom: 11px;
+                width: 91px;
+                height: 21px;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                color: #B9B9C3;
+            }
+        }
+        &__dollar{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        &__cent{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #1D2C48;
+            font-family: 'Rubik', sans-serif;
+        }
+        &__amount{
+            font-size: 41px !important;
+            font-weight: 500;
+            line-height: 21px;
+            font-family: 'Rubik', sans-serif;
+            letter-spacing: 0em;
+            text-align: left;
+            color:#1D2C48
+        }
+    }
+    .active-status{
+        margin-top: 16px;
+        margin-right: 36px;
+    }
+    .archived-status{
+        margin-top: 16px;
+        margin-right: 36px;
+    }
+  }
+.cent{
+    color: #1D2C48;
+    font-weight: 800;
+}
+.expand-right-side__amount .svg-inline--fa .fa-dollar-sign {
+    color: #1D2C48 !important;
+}
+.active-status-expand{
+    text-align: center;
+    display: inline-block;
+    width: 64px;
+    height: 22px;
+    border-radius: 30px;
+    margin-top: 16px;
+    background-color: #EAF9F1;
+    border: 1px solid #28C76F;
+    color: #28C76F;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .archived-status-expand{
+    text-align: center;
+    display: inline-block;
+    width: 64px;
+    height: 22px;
+    margin-top: 16px;
+    border-radius: 30px;
+    background-color:  #FDEEEE;
+    border: 1px solid #EA5455;
+    color: #EA5455;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+  }

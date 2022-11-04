@@ -3,12 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@types/jest": "^29.2.2",
+    "@types/node": "^18.11.9",
+    "@types/webrtc": "^0.0.33",
+    "antd": "^4.23.6",
+    "array-move": "^4.0.0",
+    "babel-plugin-macros": "^3.1.0",
+    "node-sass": "^7.0.3",
+    "react-drag-listview": "^0.2.1",
+    "react-highlight-words": "^0.18.0",
+    "react-redux": "^8.0.4",
     "react-scripts": "5.0.1",
+    "react-sortable-hoc": "^2.0.0",
+    "redux": "^4.2.0",
+    "typescript": "^4.8.4",
+    "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +51,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

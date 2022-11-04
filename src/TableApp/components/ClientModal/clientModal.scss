@@ -1,0 +1,133 @@
+.form{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  &__label{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    height: 14px;
+    margin-bottom: 5px;
+  }
+  &__date-picker{
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+  }
+  &__search-icon{
+    border-right: none;
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid #D6D8DE;
+    border-radius: 4px 0px 0px 4px;
+    border-right: none;
+  }
+  &__main-contact{
+    width: 517px;
+    height: 141px;
+    margin-top: 16px;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+  }
+  &__main-contact-title{
+    font-size: 18px !important;
+    line-height: 21px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    margin-left: 11px;
+    margin-top: 17px;
+    margin-bottom: 28px;
+  }
+  
+  &__cancel-btn{
+    margin-top: 13px;
+    border: none;
+   
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #607D8B;
+    width: 58.62px;
+  }
+  &__save-btn{
+    float: right;
+    background: #007AFF;
+    line-height: 16px;
+    letter-spacing: 0em;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 13px;
+    width: 75px;
+  }
+  &__main-contact .ant-input{
+    margin-left: 11px;
+    width: 227px;
+  }
+  &__label-main-contact{
+    margin-top: 28px ;
+    margin-left: 11px ;
+  }
+}
+.ant-form-item-control-input-content  .ant-btn{
+  padding: 0px;
+}
+.ant-form-item{
+  margin-bottom: 16px;
+  height: 36px;
+}
+.ant-picker{
+  border-radius: 0px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.ant-modal-content{
+  width: 539px;
+  height: 579px;
+  border-radius: 8px;
+}
+.ant-modal-footer{
+  padding: 0px;
+  border-top: none;
+}
+.ant-modal-body{
+  padding: 14px 11px 0px 11px;
+}
+.ant-modal-close-x .anticon{
+  color: #607D8B;
+  float: right;
+  margin-top: 24px;
+  margin-right: 11px;
+}
+.ant-modal-close-x{
+  font-size: 14px;
+}
+.ant-modal-header{
+  height: 62px;
+  padding: 16px 11px;
+  border-radius: 8px 8px 0 0;
+  border-bottom: none;
+}
+.ant-input-group{
+  margin-left: 19px;
+  margin-top: 16px;
+  width: 300px;
+  display: flex !important;
+  flex-direction: row;
+}
+.ant-picker-suffix{
+  color: #455A64;
+}
+.ant-calendar-input-wrap {
+  display: none;
+}
+.ant-input-number{
+  width: 254px;
+}
